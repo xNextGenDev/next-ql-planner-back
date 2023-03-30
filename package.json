@@ -19,8 +19,13 @@
   },
   "homepage": "https://github.com/xNextGenDev/next-ql-planner-back#readme",
   "devDependencies": {
+    "pino-pretty": "^10.0.0",
     "tsup": "^6.7.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "fastify": "^4.15.0"
   }
 }

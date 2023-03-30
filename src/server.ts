@@ -1,5 +1,7 @@
 import Fastify, { FastifyInstance, RouteShorthandOptions } from "fastify";
 import pino from "pino";
+import mongodb from "./database/mongoose";
+import "dotenv/config";
 
 const logger = pino({
   level: "info",
@@ -12,6 +14,8 @@ const logger = pino({
 });
 
 const server: FastifyInstance = Fastify({ logger });
+
+server.register(mongodb);
 
 const opts: RouteShorthandOptions = {
   schema: {

@@ -1,0 +1,26 @@
+{
+  "name": "next-ql-planner-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xNextGenDev/next-ql-planner-back.git"
+  },
+  "author": "kleber barilli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xNextGenDev/next-ql-planner-back/issues"
+  },
+  "homepage": "https://github.com/xNextGenDev/next-ql-planner-back#readme",
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
+  }
+}
